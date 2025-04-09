@@ -1,7 +1,7 @@
 import { ethers, formatEther } from "ethers";
 import "dotenv/config";
 import { getProvider } from "./utils.js";
-import daiABI from "./abi/daiSepolia.js";
+import daiABI from "../abi/daiSepolia.js";
 
 const ContractAddy = "0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357";
 const ContractABI = daiABI;
